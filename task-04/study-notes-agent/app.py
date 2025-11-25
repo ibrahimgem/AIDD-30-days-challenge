@@ -39,7 +39,14 @@ async def run_agents_async(pdf_bytes):
                 run_config=AGENT_RUN_CONFIG,
             )
             st.subheader("Quiz")
-            st.json(quiz_response.final_output)
+
+            # Extract the JSON from the markdown
+            response_text = quiz_response.final_output
+            if "```json" in response_text:
+                json_part = response_text.split("```json")[1].split("```")[0]
+                st.json(json_part)
+            else:
+                st.json(response_text)
 
 if uploaded_file:
     asyncio.run(run_agents_async(uploaded_file.read()))
