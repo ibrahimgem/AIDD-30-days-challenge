@@ -1,4 +1,0 @@
-streamlit
-pypdf
-openagents
-python-dotenv # For .env file for API keys

@@ -1,0 +1,18 @@
+[project]
+name = "study-notes-agent"
+version = "0.1.0"
+description = "PDF Summarizer and Quiz Generator Agent using OpenAI Agents SDK (for Gemini) and Streamlit."
+dependencies = [
+    "streamlit",
+    "pypdf",
+    "openai-agents",
+    "python-dotenv",
+    "openai",
+]
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["tools", "agent", "app"]
