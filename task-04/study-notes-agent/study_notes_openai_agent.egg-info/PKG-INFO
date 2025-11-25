@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: study-notes-openai-agent
-Version: 0.1.0
-Summary: Study Notes Agent using OpenAI Agents SDK + Gemini
-Requires-Python: >=3.10
-Requires-Dist: openai
-Requires-Dist: openai-agents
-Requires-Dist: PyPDF2

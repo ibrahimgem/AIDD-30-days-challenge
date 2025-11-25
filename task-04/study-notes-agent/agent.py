@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from agents import Agent, OpenAIChatCompletionsModel, RunConfig
-from study_notes_agent.tools import extract_text_from_pdf_tool
+from tools import extract_text_from_pdf_tool
 
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")

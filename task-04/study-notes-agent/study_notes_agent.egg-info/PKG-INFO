@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: study-notes-agent
-Version: 0.1.0
-Summary: PDF Summarizer and Quiz Generator Agent using OpenAI Agents SDK (for Gemini) and Streamlit.
-Requires-Dist: streamlit
-Requires-Dist: pypdf
-Requires-Dist: openai-agents
-Requires-Dist: python-dotenv
-Requires-Dist: openai

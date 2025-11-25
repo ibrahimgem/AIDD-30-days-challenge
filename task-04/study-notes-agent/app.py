@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 from dotenv import load_dotenv
-from study_notes_agent.agent import SUMMARIZER_AGENT, QUIZ_GENERATOR_AGENT, AGENT_RUN_CONFIG
-from study_notes_agent.tools import extract_text_from_pdf
+from agent import SUMMARIZER_AGENT, QUIZ_GENERATOR_AGENT, AGENT_RUN_CONFIG
+from tools import extract_text_from_pdf
 from agents import Runner
 import asyncio
 import json
