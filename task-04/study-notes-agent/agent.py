@@ -22,7 +22,7 @@ summarizer_agent = Agent(
 
 quiz_generator_agent = Agent(
     name="Quiz Generator Agent",
-    instructions="Generate a JSON quiz (3 MCQs, 2 short answers) based only on the provided text.",
+    instructions="Generate a JSON quiz with a 'quizTitle' and a list of 'questions'. Each question should have 'id', 'type' ('multiple_choice' or 'short_answer'), 'question', 'options' (for MCQs), 'correctAnswer', and 'explanation'. Generate 3 MCQs and 2 short answers based only on the provided text.",
     model=gemini_model,
 )
 
