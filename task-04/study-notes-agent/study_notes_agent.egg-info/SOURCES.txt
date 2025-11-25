@@ -1,8 +1,9 @@
 README.md
-agent_config.py
-main.py
 pyproject.toml
-tools.py
+study_notes_agent/__init__.py
+study_notes_agent/agent.py
+study_notes_agent/app.py
+study_notes_agent/tools.py
 study_notes_agent.egg-info/PKG-INFO
 study_notes_agent.egg-info/SOURCES.txt
 study_notes_agent.egg-info/dependency_links.txt

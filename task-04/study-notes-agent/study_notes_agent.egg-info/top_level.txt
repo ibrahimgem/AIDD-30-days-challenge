@@ -1,3 +1,1 @@
-agent_config
-main
-tools
+study_notes_agent
