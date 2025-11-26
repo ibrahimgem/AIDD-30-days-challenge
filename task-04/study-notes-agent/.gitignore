@@ -6,3 +6,7 @@ dist/
 *.egg-info/
 uv.lock
 prompt.pdf
+
+.env
+.env.*
+.env.local
