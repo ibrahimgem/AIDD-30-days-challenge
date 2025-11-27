@@ -1,7 +1,7 @@
 # AI-Driven Development - 30-Day Challenge Task-6
 
 ## .env file
-![env](github_pat.png)
+![env](github_PAT.png)
 
 ## setting.json
 ![Setting.json](settings.json.png)
